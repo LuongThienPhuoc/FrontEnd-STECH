@@ -1,0 +1,42 @@
+.btn-navigation:hover {
+    background-color: #9f224e;
+    color: white;
+}
+
+.btn-navigation {
+    background-color: #e5e5e5;
+    transition: all .4s ease-in-out;
+    margin: 0 8px;
+}
+
+.btn-navigation-item {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.btn-navigation-item:hover {
+    color: #9f224e;
+}
+
+.btn-all {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bdbdbd;
+}
+
+.btn-all .icon{
+    color: #bdbdbd;
+}
+
+.btn-all:hover{
+    font-weight: 600;
+}
+
+.btn-all:hover .icon{
+    font-weight: 600;
+    color: #9f224e;
+}

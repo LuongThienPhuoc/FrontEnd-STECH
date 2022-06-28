@@ -1,0 +1,27 @@
+.card-body{
+    display: flex;
+
+}
+
+.card-body img{
+    width: 40%;
+    height: 100px;
+}
+
+.card-title{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.card-body > p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    -webkit-line-clamp: 5;
+    height: 100px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
