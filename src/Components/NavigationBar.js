@@ -6,7 +6,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 function NavigationBar(props) {
     return (
 
-        <div style={{ borderBottom: '1px solid #e5e5e5', padding: '5px 0' }}>
+        <div style={{ borderBottom: '1px solid #e5e5e5', padding: '5px 0', marginTop:'68px' }}>
             <Container style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} maxWidth={'xl'}>
                 <div className='btn-navigation' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '5px', borderRadius: '50%' }}>
                     <HomeIcon style={{ fontSize: '16px' }}></HomeIcon>

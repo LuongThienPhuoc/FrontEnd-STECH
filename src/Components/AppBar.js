@@ -43,7 +43,7 @@ const ResponsiveAppBar = () => {
     }
 
     return (
-        <AppBar style={{boxShadow: 'none', borderBottom:'1px solid #e5e5e5'}} color='transparent' position="static">
+        <AppBar style={{ boxShadow: 'none', borderBottom: '1px solid #e5e5e5', background: 'white' }} color='transparent' position="fixed">
             <Container maxWidth="lg">
                 <Toolbar disableGutters>
                     <img alt='Logo' src='/logo.svg'></img>
@@ -51,14 +51,14 @@ const ResponsiveAppBar = () => {
                         <div className='appbar-time'>{renderTime()}</div>
                     </Box>
 
-                    <Box sx={{ flexGrow: 0, display: 'flex', alignItems:'center ' }}>
-                        <div className='btn'  style={{ display: 'flex', alignItems: 'center', color: '#757575', marginRight:'15px' }}>
-                            <AccessTimeIcon style={{fontSize: '18px'}}></AccessTimeIcon>
-                            <p style={{paddingLeft:'5px'}}>Mới nhất</p>
+                    <Box sx={{ flexGrow: 0, display: 'flex', alignItems: 'center ' }}>
+                        <div className='btn' style={{ display: 'flex', alignItems: 'center', color: '#757575', marginRight: '15px' }}>
+                            <AccessTimeIcon style={{ fontSize: '18px' }}></AccessTimeIcon>
+                            <p style={{ paddingLeft: '5px' }}>Mới nhất</p>
                         </div>
-                        <div className='btn'  style={{ display: 'flex', alignItems: 'center', color: '#757575', marginRight:'30px' }}>
-                            <AccessTimeIcon style={{fontSize: '18px'}}></AccessTimeIcon>
-                            <p style={{paddingLeft:'5px'}}>Mới nhất</p>
+                        <div className='btn' style={{ display: 'flex', alignItems: 'center', color: '#757575', marginRight: '30px' }}>
+                            <AccessTimeIcon style={{ fontSize: '18px' }}></AccessTimeIcon>
+                            <p style={{ paddingLeft: '5px' }}>Mới nhất</p>
                         </div>
                         <div className='btn-search' style={{ display: 'flex', alignItems: 'center', color: '#757575' }}>
                             <input type={'text'} placeholder="Tìm kiếm"></input>

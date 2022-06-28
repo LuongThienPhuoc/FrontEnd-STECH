@@ -8,6 +8,7 @@ function BodyRight(props) {
             <CardBodyRight></CardBodyRight>
             <CardBodyRight></CardBodyRight>
             <CardBodyRight></CardBodyRight>
+            <CardBodyRight></CardBodyRight>
         </div>
     );
 }

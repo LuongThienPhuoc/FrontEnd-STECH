@@ -1,0 +1,17 @@
+.body-video {
+    margin-top: 30px;
+    border: 1px solid #f0eeea;
+    background: #fcfaf6;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card-body-video>img {
+    width: 40%;
+    height: 70px;
+}
+
+.card-body-video {
+    display: flex;
+    margin-bottom: 15px;
+}
