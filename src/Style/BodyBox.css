@@ -1,0 +1,12 @@
+.body-box{
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #bdbdbd;
+    border-bottom: 2px solid #bdbdbd;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.body-box-content{
+    display: flex;
+}

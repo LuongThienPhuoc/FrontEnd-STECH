@@ -1,0 +1,48 @@
+.see-more {
+    margin-top: 40px;
+}
+
+.see-more .title {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 10px;
+}
+
+.see-more .title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 120px;
+    height: 1px;
+    bottom: 0;
+    background-color: #9f224e;
+}
+
+.see-more .ratings:hover .description {
+    transition: all .3s ease-in-out;
+    color: #087cce;
+}
+
+.see-more .ratings {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.see-more-body {
+    margin-top: 20px;
+}
+
+.see-more-body .ratings:nth-child(odd) {
+    border-right: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.see-more-body .ratings:nth-child(even) {
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.see-more-body .ratings:nth-child(n+ 7) {
+    border-bottom: none;
+}

@@ -6,6 +6,9 @@ import BodyLeft from './BodyLeft';
 import BodyRight from './BodyRight';
 import AutoGraphIcon from '@mui/icons-material/AutoGraph';
 import BodyVideo from './BodyVideo'
+import InfoBusiness from './InfoBusiness';
+import SeeMore from './SeeMore';
+import BodyBox from './BodyBox';
 function Body(props) {
     return (
         <Container style={{ marginTop: '40px', marginBottom: '40px' }} maxWidth={'lg'}>
@@ -24,13 +27,22 @@ function Body(props) {
                         <AutoGraphIcon style={{ color: '#757575' }}></AutoGraphIcon>
                         <p style={{ fontWeight: '600', paddingLeft: '15px', color: '#757575' }}>Chủ đề</p>
                     </div>
-                    <p style={{ color: '#9f224e', fontSize: '16px', fontWeight: '600', marginLeft: '20px', textDecoration:'underline' }}>Giá sách giáo khoa mới</p>
-                    <p style={{ color: '#9f224e', fontSize: '16px', fontWeight: '600', marginLeft: '20px' , textDecoration:'underline'}} >Đề án 5 huyện</p>
-                    <p style={{ color: '#9f224e', fontSize: '16px', fontWeight: '600', marginLeft: '20px', textDecoration:'underline' }} >Điện hạt nhân</p>
-                    <p style={{ color: '#9f224e', fontSize: '16px', fontWeight: '600', marginLeft: '20px' , textDecoration:'underline'}}>Lương Thiện Phước</p>
+                    <p style={{ color: '#9f224e', fontSize: '16px', fontWeight: '600', marginLeft: '20px', textDecoration: 'underline' }}>Giá sách giáo khoa mới</p>
+                    <p style={{ color: '#9f224e', fontSize: '16px', fontWeight: '600', marginLeft: '20px', textDecoration: 'underline' }} >Đề án 5 huyện</p>
+                    <p style={{ color: '#9f224e', fontSize: '16px', fontWeight: '600', marginLeft: '20px', textDecoration: 'underline' }} >Điện hạt nhân</p>
+                    <p style={{ color: '#9f224e', fontSize: '16px', fontWeight: '600', marginLeft: '20px', textDecoration: 'underline' }}>Lương Thiện Phước</p>
                 </Grid>
                 <Grid xs={12}>
                     <BodyVideo></BodyVideo>
+                </Grid>
+                <Grid xs={12}>
+                    <BodyBox></BodyBox>
+                </Grid>
+                <Grid xs={8}>
+                    <SeeMore></SeeMore>
+                </Grid>
+                <Grid style={{ marginTop: '30px' }} xs={12}>
+                    <InfoBusiness></InfoBusiness>
                 </Grid>
             </Grid>
         </Container>

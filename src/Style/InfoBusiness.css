@@ -1,0 +1,46 @@
+.info-business {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background: #f7f7f7;
+}
+
+.scrollbar {
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+    margin: 5px 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-item {
+    flex-shrink: 0;
+    margin: 0 10px;
+    padding: 10px 0;
+    width: 250px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.scrollbar-item img {
+    width: 250px;
+    height: 150px;
+}
+
+.scrollbar-item:hover p {
+    color: #087cce;
+}
+
+.scrollbar-item p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #bdbdbd;
+}
