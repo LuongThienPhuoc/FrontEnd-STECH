@@ -3,7 +3,7 @@
 
 ## Link demo on Heroku
 
-[Live Demo](https://frontend-stech-vnexpress.herokuapp.com/)
+[Live Demo](https://frontend-stech-vnexpress.herokuapp.com)
 
 ## Running instructions source code:
 Clone the project from this repository. Then run the command:
