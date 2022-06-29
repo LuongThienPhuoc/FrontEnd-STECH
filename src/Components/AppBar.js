@@ -6,7 +6,7 @@ import Container from '@mui/material/Container';
 import PersonIcon from '@mui/icons-material/Person';
 import '../Style/AppBar.css'
 import SearchIcon from '@mui/icons-material/Search';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import Button from './Button';
 const ResponsiveAppBar = () => {
 
     const renderTime = () => {
@@ -52,14 +52,8 @@ const ResponsiveAppBar = () => {
                     </Box>
 
                     <Box sx={{ flexGrow: 0, display: 'flex', alignItems: 'center ' }}>
-                        <div className='btn' style={{ display: 'flex', alignItems: 'center', color: '#757575', marginRight: '15px' }}>
-                            <AccessTimeIcon style={{ fontSize: '18px' }}></AccessTimeIcon>
-                            <p style={{ paddingLeft: '5px' }}>Mới nhất</p>
-                        </div>
-                        <div className='btn' style={{ display: 'flex', alignItems: 'center', color: '#757575', marginRight: '30px' }}>
-                            <AccessTimeIcon style={{ fontSize: '18px' }}></AccessTimeIcon>
-                            <p style={{ paddingLeft: '5px' }}>Mới nhất</p>
-                        </div>
+                        <Button name='Mới nhất'></Button>
+                        <Button name='International'></Button>
                         <div className='btn-search' style={{ display: 'flex', alignItems: 'center', color: '#757575' }}>
                             <input type={'text'} placeholder="Tìm kiếm"></input>
                             <SearchIcon></SearchIcon>
