@@ -1,0 +1,52 @@
+.modal-app-bar{
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 130%;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    display: none;
+    animation: animation .3s ease-in-out;
+}
+
+.modal-app-bar::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-color: transparent;
+}
+
+@keyframes animation {
+    from {
+        transform: translateY(+10%); 
+        opacity: 0;
+    } to {
+        transform: translateY(0);
+        opacity: 1;
+
+    }
+}
+
+.modal-app-bar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #9f224e;
+}
+
+.modal-app-bar p {
+    padding-left: 15px;
+    font-weight: 400;
+}
+
+.modal-app-bar p:hover {
+    text-decoration: underline;
+    color: black;
+}

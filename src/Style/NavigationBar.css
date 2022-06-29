@@ -14,10 +14,19 @@
     font-size: 14px;
     margin: 0 8px;
     cursor: pointer;
+    position: relative;
 }
 
 .btn-navigation-item:hover {
     color: #9f224e;
+}
+
+.btn-navigation-item:hover .modal-app-bar {
+    display: block;
+}
+
+.btn-navigation-item:hover .modal-app-bar p {
+    color: black;
 }
 
 .btn-all {
@@ -28,15 +37,15 @@
     color: #bdbdbd;
 }
 
-.btn-all .icon{
+.btn-all .icon {
     color: #bdbdbd;
 }
 
-.btn-all:hover{
+.btn-all:hover {
     font-weight: 600;
 }
 
-.btn-all:hover .icon{
+.btn-all:hover .icon {
     font-weight: 600;
     color: #9f224e;
 }
